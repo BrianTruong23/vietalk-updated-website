@@ -40,7 +40,7 @@ var speed = 4700;
 
 function first_sentence() {
   label_banner.innerHTML = ` More than just  
-  <span class="type" style="--n:53"> 
+  <span class="type" style="--n:150"> 
   teach <strong>a language</strong>,
   <br> At VieTalk, we teach <strong>a culture</strong>.         
  </span>`;
@@ -48,7 +48,7 @@ function first_sentence() {
 
 function second_sentence() {
   label_banner.innerHTML = ` 
-  <span class="type" style="--n:100"> 
+  <span class="type" style="--n:150"> 
   And more than that, at VieTalk, 
   <br>we work hard to keep it <strong>affordable</strong> for everyone. 
  </span>`;
