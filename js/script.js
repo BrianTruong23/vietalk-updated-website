@@ -39,10 +39,9 @@ const label_banner = document.getElementById("banner-text");
 var speed = 4700;
 
 function first_sentence() {
-  label_banner.innerHTML = ` More than just  
+  label_banner.innerHTML = ` More than just teach <strong>a language, </strong>  <br> 
   <span class="type" style="--n:150"> 
-  teach <strong>a language</strong>,
-  <br> At VieTalk, we teach <strong>a culture</strong>.         
+  At VieTalk, we teach <strong>a culture</strong>.         
  </span>`;
 }
 
