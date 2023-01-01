@@ -27,11 +27,10 @@ let touchendY = 0;
 function checkDirection() {
   if (touchendY < touchstartY && elementInViewport(banner_div)) {
     nav_bar_div.style.opacity = "0";
+    console.log("swipe up");
     // swipe up
-  }
-  if (touchendY > touchstartY) {
+  } else {
     nav_bar_div.style.opacity = "1";
-    // swipe down
   }
 }
 
