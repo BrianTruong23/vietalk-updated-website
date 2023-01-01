@@ -1,18 +1,3 @@
-// const nav_bar = document.getElementById("header-nav");
-// var switchStatus = false;
-
-// function toggleMobileMenu(menu) {
-//   if (switchStatus == false) {
-//     nav_bar.style.height = "220px";
-//     switchStatus = true;
-//   } else {
-//     nav_bar.style.height = "100px";
-//     switchStatus = false;
-//   }
-
-//   menu.classList.toggle("open");
-// }
-
 const nav_bar_div = document.getElementById("nav-bar-header");
 
 const banner_div = document.getElementById("banner-div");
@@ -81,46 +66,6 @@ function navigate_speech() {
   // setTimeout(second_sentence, speed + 5000);
   setTimeout(last_sentence, speed + 5000);
 }
-
-// function getOffset(el) {
-//   const rect = el.getBoundingClientRect();
-//   return {
-//     left: rect.left + window.scrollX,
-//     top: rect.top + window.scrollY,
-//   };
-// }
-
-// var id = null;
-// const arrow_down_div = document.getElementById("arrow-down-div");
-// const arrow_down = document.getElementById("arrow-down");
-// function myMove() {
-//   arrow_down_div.style.opacity = "1";
-//   var pos = getOffset(arrow_down_div).top - 10;
-//   var initial_pos = getOffset(arrow_down_div).top;
-
-//   id = setInterval(frame, 1);
-
-//   function frame() {
-//     if (pos >= initial_pos) {
-//       clearInterval(id);
-//     } else {
-//       pos++;
-
-//       arrow_down_div.style.top = pos + "px";
-//     }
-//   }
-// }
-
-// function animate_my_move() {
-//   time = 900;
-
-//   for (let i = 0; i < 3; i++) {
-//     time_in = 1000 + time * i;
-//     setTimeout(myMove, time_in);
-//     setTimeout(myMove, time_in);
-//     setTimeout(myMove, time_in);
-//   }
-// }
 
 const arrow_down_div = document.getElementById("scroll-down-div");
 function animate_my_move() {
