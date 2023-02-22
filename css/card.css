@@ -11,6 +11,7 @@
 .content {
   display: flex;
   padding: 50px;
+  justify-content: center;
 }
 
 /* Slideshow container */
@@ -21,8 +22,7 @@
 
 /* Hide the images by default */
 .mySlides {
-  display: flex;
-  justify-content: center;
+  display: block;
 }
 
 /* Next & previous buttons */
