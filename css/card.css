@@ -21,7 +21,8 @@
 
 /* Hide the images by default */
 .mySlides {
-  display: none;
+  display: flex;
+  justify-content: center;
 }
 
 /* Next & previous buttons */
