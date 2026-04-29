@@ -24,7 +24,7 @@ document.write(`
   </div>
 
   <div class="right box">
-    <p>Copyright © 2026 <a href="#">VieTalk</a> All rights reserved</p>
+    <p>Copyright © <span class="copyright-year"></span> <a href="#">VieTalk</a> All rights reserved</p>
 
 
 </div>
@@ -34,3 +34,7 @@ document.write(`
 </footer>
 
 `);
+
+document.querySelectorAll(".copyright-year").forEach((el) => {
+  el.textContent = new Date().getFullYear();
+});
