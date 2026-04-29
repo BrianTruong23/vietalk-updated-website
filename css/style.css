@@ -72,6 +72,30 @@ h4 {
   touch-action: manipulation;
 }
 
+#logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+}
+
+#logo a {
+  border-style: none;
+  cursor: pointer;
+  display: inline-block;
+  list-style: none;
+  margin: 0 auto;
+  color: var(--bs-blue);
+  font-weight: bold;
+}
+
+#logo a:hover{
+  color: var(--bs-dark-yellow);
+  transition: 0.3s;
+}
+
+
 #brand a:hover,
 #brand a:focus {
   background-color: var(--bs-dark-gray);
