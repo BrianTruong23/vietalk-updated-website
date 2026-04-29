@@ -24,7 +24,7 @@ document.write(`
   </div>
 
   <div class="right box">
-    <p>Copyright © 2022 <a href="#">VieTalk</a> All rights reserved</p>
+    <p>Copyright © 2026 <a href="#">VieTalk</a> All rights reserved</p>
 
 
 </div>
